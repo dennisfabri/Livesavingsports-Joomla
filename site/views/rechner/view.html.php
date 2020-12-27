@@ -38,6 +38,7 @@ class dlrgrettungssportViewrechner extends JViewLegacy
 		
 		$this->body = $message;
 
+		// Display the view
 		parent::display($tpl);
 	}
 	
@@ -46,7 +47,7 @@ class dlrgrettungssportViewrechner extends JViewLegacy
 		$url = $_SERVER["REQUEST_URI"];
 		$site = htmlspecialchars("http://" . $server . $url);
 		$message .= "<h4>Seite nicht verf&uuml;gbar</h4>";
-		$message .= '<p>Die angeforderte Seite existiert nicht. Bitte melden Sie dieses Problem mit einer kurzen Beschreibung an <a href="mailto:info@dennisfabri.de">info@dennisfabro.de</a>.</p>';
+		$message .= '<p>Die angeforderte Seite existiert nicht. Bitte melden Sie dieses Problem mit einer kurzen Beschreibung an <a href="mailto:info@dennisfabri.de">info@dennisfabri.de</a>.</p>';
 		$message .= "<h4>Information zur Ursache</h4>";
 		if ($info != null) {
 		  $message .= "<p>$info</p>";

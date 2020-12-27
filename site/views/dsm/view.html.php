@@ -11,6 +11,7 @@ class dlrgrettungssportViewdsm extends JViewLegacy
 {
 	function display($tpl = null)
 	{
+		// Assign data to the view
 		$this->title = 'Ergebnisse der Deutschen Seniorenmeisterschaften im Rettungssport';
 		
 		$table = '';
@@ -48,6 +49,7 @@ class dlrgrettungssportViewdsm extends JViewLegacy
             array(2017, "Andernach", "http://dlrg-andernach.de/?site=dsm"),
             array(2018, "Harsewinkel", "https://harsewinkel.dlrg.de/dsm-2018.html"),
             array(2019, "Sulzbach", "https://sulzbach.dlrg.de/"),
+            array(2020, "-<sup>1</sup>", ""),
 		);
 
         for ($x = count($values) - 1; $x >= 0; $x--) {
@@ -83,11 +85,13 @@ class dlrgrettungssportViewdsm extends JViewLegacy
 		$message .= '<tr style="background-color: #0077BB; color: WHITE;"><th style="text-align: center;">Jahr</th><th style="text-align: center;">Ort</th><th colspan="3" style="text-align: center;">Ergebnisse</th></tr>';
 		$message .= $table;
 		$message .= '</table>';
+		$message .= "<p><sup>1</sup>) Diese Wettkämpfe wurden wegen des Ausbruchs von SARS-CoV-2 (Corona) abgesagt.</p>";
 		$message .= '<p style="text-align: right;"><a href="mailto:info@dennisfabri.de">Fehler melden</a></p>';
 		$message .= '<p>Die Daten stammen zum Teil von der Internetseite <a target="_blank" href="http://www.rettungssport.com/home/specials/specials-anzeigen/article/dsm-alle-infos.html">rettungssport.com</a> (05.06.2009).</p>';
 
 		$this->body = $message;
 
+		// Display the view
 		parent::display($tpl);
 	}
 }

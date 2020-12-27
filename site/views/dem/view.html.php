@@ -17,6 +17,7 @@ class dlrgrettungssportViewdem extends JViewLegacy
 		
         $values = array(
 			array(2019, "Magdeburg", ""),
+			array(2020, "-<sup>1</sup>", ""),
 		);
 
         for ($x = count($values) - 1; $x >= 0; $x--) {
@@ -52,6 +53,8 @@ class dlrgrettungssportViewdem extends JViewLegacy
 		$message .= '<tr style="background-color: #0077BB; color: WHITE; border: 1px solid #0077bb;"><th style="border-left: 1px solid #0077BB; text-align: center;">Jahr</th><th style="text-align: center;">Ort</th><th colspan="2" style="text-align: center;">Ergebnisse</th><th style="border-right: 1px solid #0077BB; text-align: center;">Nr</th></tr>';
 		$message .= $table;
 		$message .= '</table>';
+
+		$message .= "<p><sup>1</sup>) Diese Wettkämpfe wurden wegen des Ausbruchs von SARS-CoV-2 (Corona) abgesagt.</p>";
 		
 		$this->body = $message;
 

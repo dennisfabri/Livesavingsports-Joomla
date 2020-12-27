@@ -421,3 +421,77 @@ $rec2019m = array(
         array("AK 280+", -1, array(219.78, 133.58, 99.35), array(160.92, 110.04, 74.78), array("4*50m Freistilstaffel", "4*25m R&uuml;ckenlage ohne Armt&auml;tigkeit", "4*25m Rettungsstaffel")),
     );
 $recs[2019] = array("e" => $rec2019e, "m" => $rec2019m);
+
+$rec2020e = array(
+        array("AK 12", -1, array(31.03, 32.69, 22.7), array(30.02, 34.15, 21.32), array("50m Hindernisschwimmen", "50m Kombiniertes Schwimmen", "50m Flossenschwimmen")),
+        array("AK 13/14", -1, array(64.56, 38.95, 26.8), array(61.23, 35.9, 23.23), array("100m Hindernisschwimmen", "50m Retten", "50m Retten mit Flossen")),
+        array("AK 15/16", 3, array(131.97, 61.24, 35.25, 73.61, 52.15, 150.39), array(123.85, 56.44, 32.39, 71.4, 49.35, 146.8), array("200m Hindernisschwimmen", "100m Lifesaver", "50m Retten", "100m Kombinierte Rettungs&uuml;bung", "100m Retten mit Flossen", "200m Super-Lifesaver")),
+        array("AK 17/18", 3, array(131.97, 60.93, 35.25, 73.61, 52.15, 150.39), array(122.3, 52.19, 30.16, 62.47, 45.96, 133.42), array("200m Hindernisschwimmen", "100m Lifesaver", "50m Retten", "100m Kombinierte Rettungs&uuml;bung", "100m Retten mit Flossen", "200m Super-Lifesaver")),
+        array("AK Offen", 3, array(131.69, 57.58, 34.28, 71.43, 52.15, 143.32), array(117.0, 49.38, 27.27, 59.06, 44.04, 125.66), array("200m Hindernisschwimmen", "100m Lifesaver", "50m Retten", "100m Kombinierte Rettungs&uuml;bung", "100m Retten mit Flossen", "200m Super-Lifesaver")),
+        array("AK 25", 3, array(63.72, 37.82, 58.72, 62.87), array(56.11, 32.03, 52.01, 54.01), array("100m Hindernisschwimmen", "50m Retten", "100m Retten mit Flossen", "100m Lifesaver")),
+        array("AK 30", 3, array(64.92, 37.82, 64.41, 65.16), array(56.7, 32.03, 52.2, 56.76), array("100m Hindernisschwimmen", "50m Retten", "100m Retten mit Flossen", "100m Lifesaver")),
+        array("AK 35", 3, array(67.0, 38.38, 64.73, 69.07), array(57.52, 32.25, 54.56, 57.52), array("100m Hindernisschwimmen", "50m Retten", "100m Retten mit Flossen", "100m Lifesaver")),
+        array("AK 40", 3, array(69.15, 38.38, 64.73, 69.07), array(57.68, 32.25, 54.56, 59.28), array("100m Hindernisschwimmen", "50m Retten", "100m Retten mit Flossen", "100m Lifesaver")),
+        array("AK 45", 3, array(70.45, 39.34, 67.9, 69.53), array(61.44, 34.13, 57.83, 60.91), array("100m Hindernisschwimmen", "50m Retten", "100m Retten mit Flossen", "100m Lifesaver")),
+        array("AK 50", -1, array(75.82, 45.1, 31.99), array(61.5, 34.13, 24.91), array("100m Hindernisschwimmen", "50m Retten", "50m Retten mit Flossen")),
+        array("AK 55", -1, array(80.01, 45.91, 31.99), array(63.94, 36.42, 25.52), array("100m Hindernisschwimmen", "50m Retten", "50m Retten mit Flossen")),
+        array("AK 60", -1, array(35.06, 41.43, 28.8), array(27.7, 30.88, 19.23), array("50m Freistilschwimmen", "50m Kombiniertes Schwimmen", "25m Schleppen einer Puppe")),
+        array("AK 65", -1, array(37.2, 44.14, 33.08), array(31.1, 36.9, 22.61), array("50m Freistilschwimmen", "50m Kombiniertes Schwimmen", "25m Schleppen einer Puppe")),
+        array("AK 70", -1, array(38.6, 46.8, 31.44), array(32.22, 40.48, 24.43), array("50m Freistilschwimmen", "50m Kombiniertes Schwimmen", "25m Schleppen einer Puppe")),
+        array("AK 75", -1, array(41.62, 50.17, 33.81), array(35.07, 44.64, 24.66), array("50m Freistilschwimmen", "50m Kombiniertes Schwimmen", "25m Schleppen einer Puppe")),
+        array("AK 80", -1, array(43.83, 59.17, 37.61), array(37.84, 45.23, 28.39), array("50m Freistilschwimmen", "50m Kombiniertes Schwimmen", "25m Schleppen einer Puppe")),
+        array("AK 85", -1, array(73.98, 72.61, 41.87), array(63.08, 68.23, 37.67), array("50m Freistilschwimmen", "50m Kombiniertes Schwimmen", "25m Schleppen einer Puppe")),
+        array("AK 90", -1, array(86.75, 84.59, 48.08), array(99.18, 101.34, 49.33), array("50m Freistilschwimmen", "50m Kombiniertes Schwimmen", "25m Schleppen einer Puppe")),
+    );
+$rec2020m = array(
+        array("AK 12", -1, array(145.64, 82.19, 71.33, 58.17), array(141.02, 80.26, 71.13, 56.74), array("4*50m Hindernisstaffel", "4*25m R&uuml;ckenlage ohne Armt&auml;tigkeit", "4*25m Gurtretterstaffel", "4*25m Rettungsstaffel")),
+        array("AK 13/14", -1, array(130.44, 101.68, 119.03, 147.16), array(119.22, 92.27, 109.79, 130.49), array("4*50m Hindernisstaffel", "4*25m Puppenstaffel", "4*50m Gurtretterstaffel", "4*50m Rettungsstaffel")),
+        array("AK 15/16", -1, array(124.07, 96.25, 111.31, 140.26), array(109.9, 77.92, 100.72, 118.81), array("4*50m Hindernisstaffel", "4*25m Puppenstaffel", "4*50m Gurtretterstaffel", "4*50m Rettungsstaffel")),
+        array("AK 17/18", -1, array(116.7, 84.93, 103.9, 131.42), array(103.25, 69.98, 92.88, 115.95), array("4*50m Hindernisstaffel", "4*25m Puppenstaffel", "4*50m Gurtretterstaffel", "4*50m Rettungsstaffel")),
+        array("AK Offen", -1, array(113.25, 80.63, 100.66, 128.2), array(97.48, 64.04, 86.19, 106.78), array("4*50m Hindernisstaffel", "4*25m Puppenstaffel", "4*50m Gurtretterstaffel", "4*50m Rettungsstaffel")),
+        array("AK 100", -1, array(124.45, 87.7, 110.8, 141.12), array(106.0, 72.04, 95.17, 118.95), array("4*50m Hindernisstaffel", "4*25m Puppenstaffel", "4*50m Gurtretterstaffel", "4*50m Rettungsstaffel")),
+        array("AK 120", -1, array(126.17, 94.75, 115.12, 143.94), array(106.28, 72.04, 95.17, 119.75), array("4*50m Hindernisstaffel", "4*25m Puppenstaffel", "4*50m Gurtretterstaffel", "4*50m Rettungsstaffel")),
+        array("AK 140", -1, array(130.85, 97.65, 119.27, 147.62), array(112.02, 74.79, 102.19, 122.19), array("4*50m Hindernisstaffel", "4*25m Puppenstaffel", "4*50m Gurtretterstaffel", "4*50m Rettungsstaffel")),
+        array("AK 170", -1, array(131.37, 102.48, 121.22, 154.34), array(115.07, 81.26, 105.95, 125.69), array("4*50m Hindernisstaffel", "4*25m Puppenstaffel", "4*50m Gurtretterstaffel", "4*50m Rettungsstaffel")),
+        array("AK 200", -1, array(142.41, 116.05, 129.18, 169.79), array(117.04, 81.26, 110.25, 130.77), array("4*50m Hindernisstaffel", "4*25m Puppenstaffel", "4*50m Gurtretterstaffel", "4*50m Rettungsstaffel")),
+        array("AK 240", -1, array(158.4, 112.01, 79.0), array(120.42, 86.94, 62.01), array("4*50m Freistilstaffel", "4*25m R&uuml;ckenlage ohne Armt&auml;tigkeit", "4*25m Rettungsstaffel")),
+        array("AK 280+", -1, array(219.78, 133.58, 99.35), array(151.51, 110.04, 74.78), array("4*50m Freistilstaffel", "4*25m R&uuml;ckenlage ohne Armt&auml;tigkeit", "4*25m Rettungsstaffel")),
+    );
+$recs[2020] = array("e" => $rec2020e, "m" => $rec2020m);
+
+$rec2021e = array(
+        array("AK 12", -1, array(31.03, 32.69, 22.7), array(30.02, 34.15, 21.32), array("50m Hindernisschwimmen", "50m Kombiniertes Schwimmen", "50m Flossenschwimmen")),
+        array("AK 13/14", -1, array(64.56, 38.95, 26.8), array(61.23, 35.9, 23.23), array("100m Hindernisschwimmen", "50m Retten", "50m Retten mit Flossen")),
+        array("AK 15/16", 3, array(131.97, 61.24, 35.25, 73.61, 52.15, 150.39), array(123.85, 56.44, 32.39, 71.4, 49.35, 146.8), array("200m Hindernisschwimmen", "100m Lifesaver", "50m Retten", "100m Kombinierte Rettungs&uuml;bung", "100m Retten mit Flossen", "200m Super-Lifesaver")),
+        array("AK 17/18", 3, array(131.97, 60.93, 35.25, 73.61, 52.15, 150.39), array(122.3, 52.19, 30.16, 62.47, 45.96, 133.42), array("200m Hindernisschwimmen", "100m Lifesaver", "50m Retten", "100m Kombinierte Rettungs&uuml;bung", "100m Retten mit Flossen", "200m Super-Lifesaver")),
+        array("AK Offen", 3, array(131.69, 57.58, 34.28, 71.43, 52.15, 145.84), array(117.0, 49.38, 27.27, 59.06, 44.04, 125.66), array("200m Hindernisschwimmen", "100m Lifesaver", "50m Retten", "100m Kombinierte Rettungs&uuml;bung", "100m Retten mit Flossen", "200m Super-Lifesaver")),
+        array("AK 25", 3, array(63.72, 37.82, 58.72, 62.87), array(56.11, 32.03, 52.01, 54.01), array("100m Hindernisschwimmen", "50m Retten", "100m Retten mit Flossen", "100m Lifesaver")),
+        array("AK 30", 3, array(64.92, 37.82, 64.41, 65.16), array(56.7, 32.03, 52.2, 56.76), array("100m Hindernisschwimmen", "50m Retten", "100m Retten mit Flossen", "100m Lifesaver")),
+        array("AK 35", 3, array(67.0, 38.38, 64.73, 69.07), array(57.52, 32.25, 54.56, 57.52), array("100m Hindernisschwimmen", "50m Retten", "100m Retten mit Flossen", "100m Lifesaver")),
+        array("AK 40", 3, array(69.15, 38.38, 64.73, 69.07), array(57.68, 32.25, 54.56, 59.28), array("100m Hindernisschwimmen", "50m Retten", "100m Retten mit Flossen", "100m Lifesaver")),
+        array("AK 45", 3, array(70.45, 39.34, 67.9, 69.53), array(61.44, 34.13, 57.83, 60.91), array("100m Hindernisschwimmen", "50m Retten", "100m Retten mit Flossen", "100m Lifesaver")),
+        array("AK 50", -1, array(75.82, 45.1, 31.99), array(61.5, 34.13, 24.91), array("100m Hindernisschwimmen", "50m Retten", "50m Retten mit Flossen")),
+        array("AK 55", -1, array(80.01, 45.91, 31.99), array(63.94, 36.42, 25.52), array("100m Hindernisschwimmen", "50m Retten", "50m Retten mit Flossen")),
+        array("AK 60", -1, array(35.06, 41.43, 28.8), array(27.7, 30.88, 19.23), array("50m Freistilschwimmen", "50m Kombiniertes Schwimmen", "25m Schleppen einer Puppe")),
+        array("AK 65", -1, array(37.2, 44.14, 33.08), array(31.1, 36.9, 22.61), array("50m Freistilschwimmen", "50m Kombiniertes Schwimmen", "25m Schleppen einer Puppe")),
+        array("AK 70", -1, array(38.6, 46.8, 31.44), array(32.22, 40.48, 24.43), array("50m Freistilschwimmen", "50m Kombiniertes Schwimmen", "25m Schleppen einer Puppe")),
+        array("AK 75", -1, array(41.62, 50.17, 33.81), array(35.07, 44.64, 24.66), array("50m Freistilschwimmen", "50m Kombiniertes Schwimmen", "25m Schleppen einer Puppe")),
+        array("AK 80", -1, array(43.83, 59.17, 37.61), array(37.84, 45.23, 28.39), array("50m Freistilschwimmen", "50m Kombiniertes Schwimmen", "25m Schleppen einer Puppe")),
+        array("AK 85", -1, array(73.98, 72.61, 41.87), array(63.08, 68.23, 37.67), array("50m Freistilschwimmen", "50m Kombiniertes Schwimmen", "25m Schleppen einer Puppe")),
+        array("AK 90", -1, array(86.75, 84.59, 48.08), array(99.18, 101.34, 49.33), array("50m Freistilschwimmen", "50m Kombiniertes Schwimmen", "25m Schleppen einer Puppe")),
+    );
+$rec2021m = array(
+        array("AK 12", -1, array(145.64, 82.19, 71.33, 58.17), array(141.02, 80.26, 71.13, 56.74), array("4*50m Hindernisstaffel", "4*25m R&uuml;ckenlage ohne Armt&auml;tigkeit", "4*25m Gurtretterstaffel", "4*25m Rettungsstaffel")),
+        array("AK 13/14", -1, array(130.44, 101.68, 119.03, 147.16), array(119.22, 92.27, 109.79, 130.49), array("4*50m Hindernisstaffel", "4*25m Puppenstaffel", "4*50m Gurtretterstaffel", "4*50m Rettungsstaffel")),
+        array("AK 15/16", -1, array(124.07, 96.25, 111.31, 140.26), array(109.9, 77.92, 100.72, 118.81), array("4*50m Hindernisstaffel", "4*25m Puppenstaffel", "4*50m Gurtretterstaffel", "4*50m Rettungsstaffel")),
+        array("AK 17/18", -1, array(116.7, 84.93, 103.9, 131.42), array(103.25, 69.98, 92.88, 115.95), array("4*50m Hindernisstaffel", "4*25m Puppenstaffel", "4*50m Gurtretterstaffel", "4*50m Rettungsstaffel")),
+        array("AK Offen", -1, array(113.25, 80.63, 100.66, 128.2), array(97.48, 64.04, 86.19, 106.78), array("4*50m Hindernisstaffel", "4*25m Puppenstaffel", "4*50m Gurtretterstaffel", "4*50m Rettungsstaffel")),
+        array("AK 100", -1, array(124.45, 87.7, 110.8, 141.12), array(106.0, 72.04, 95.17, 118.95), array("4*50m Hindernisstaffel", "4*25m Puppenstaffel", "4*50m Gurtretterstaffel", "4*50m Rettungsstaffel")),
+        array("AK 120", -1, array(126.17, 94.75, 115.12, 143.94), array(106.28, 72.04, 95.17, 119.75), array("4*50m Hindernisstaffel", "4*25m Puppenstaffel", "4*50m Gurtretterstaffel", "4*50m Rettungsstaffel")),
+        array("AK 140", -1, array(130.85, 97.65, 119.27, 147.62), array(112.02, 74.79, 102.19, 122.19), array("4*50m Hindernisstaffel", "4*25m Puppenstaffel", "4*50m Gurtretterstaffel", "4*50m Rettungsstaffel")),
+        array("AK 170", -1, array(131.37, 102.48, 121.22, 154.34), array(115.07, 81.26, 105.95, 125.69), array("4*50m Hindernisstaffel", "4*25m Puppenstaffel", "4*50m Gurtretterstaffel", "4*50m Rettungsstaffel")),
+        array("AK 200", -1, array(142.41, 116.05, 129.18, 169.79), array(117.04, 81.26, 110.25, 130.77), array("4*50m Hindernisstaffel", "4*25m Puppenstaffel", "4*50m Gurtretterstaffel", "4*50m Rettungsstaffel")),
+        array("AK 240", -1, array(158.4, 112.01, 79.0), array(120.42, 86.94, 62.01), array("4*50m Freistilstaffel", "4*25m R&uuml;ckenlage ohne Armt&auml;tigkeit", "4*25m Rettungsstaffel")),
+        array("AK 280+", -1, array(219.78, 133.58, 99.35), array(151.51, 110.04, 74.78), array("4*50m Freistilstaffel", "4*25m R&uuml;ckenlage ohne Armt&auml;tigkeit", "4*25m Rettungsstaffel")),
+    );
+$recs[2021] = array("e" => $rec2021e, "m" => $rec2021m);

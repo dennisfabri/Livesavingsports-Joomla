@@ -11,6 +11,7 @@ class dlrgrettungssportViewdm extends JViewLegacy
 {
 	function display($tpl = null)
 	{
+		// Assign data to the view
 		$this->title = 'Ergebnisse der Deutsche Mehrkampf-Meisterschaften im Rettungssport';
 		
 		$table = '';
@@ -61,6 +62,9 @@ class dlrgrettungssportViewdm extends JViewLegacy
 			array(2015, "Osnabr&uuml;ck", ""),
 			array(2016, "W&uuml;rzburg", ""),
 			array(2017, "Hagen", ""),
+			array(2018, "Leipzig", ""),
+			array(2019, "Hagen", ""),
+			array(2020, "-<sup>2</sup>", ""),
 		);
 
         for ($x = count($values) - 1; $x >= 0; $x--) {
@@ -69,7 +73,7 @@ class dlrgrettungssportViewdm extends JViewLegacy
 	      $mannschaft = "-";
 	      $gesamtog = "-";
 	      if ($value[0] < 2007) {
-	        $gesamtog = "- *";
+	        $gesamtog = "- <sup>1</sup>";
 	      }
 	      $gesamtlv = "-";
 	
@@ -112,11 +116,13 @@ class dlrgrettungssportViewdm extends JViewLegacy
 		$message .= $table;
 		$message .= '</table>';
 		
-		$message .= '<p>*) Vor 2007 wurde auf Deutschen Meisterschaften keine Ortsgruppenwertung durchgef&uuml;hrt.</p>';
+		$message .= '<p><sup>1</sup>) Vor 2007 wurde auf Deutschen Meisterschaften keine Ortsgruppenwertung durchgef&uuml;hrt.</p>';
+		$message .= "<p><sup>2</sup>) Diese Wettkämpfe wurden wegen des Ausbruchs von SARS-CoV-2 (Corona) abgesagt.</p>";
 		$message .= '<p>Die Daten stammen zum Teil von der Internetseite <a target="_blank" href="http://dm.dlrg-jugend.de">dm.dlrg-jugend.de</a> und den von dort verlinkten Seiten (*.dlrg-jugend.de) (31.05.2011).</p>';
 
 		$this->body = $message;
 
+		// Display the view
 		parent::display($tpl);
 	}
 }
